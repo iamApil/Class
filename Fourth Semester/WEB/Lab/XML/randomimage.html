@@ -1,0 +1,61 @@
+<html>
+
+<head>
+	<title>
+		Random Html
+	</title>
+</head>
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	body {
+		height: 100vh;
+		width: 100vw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.container {
+		height: 200px;
+		/* width: 500px; */
+	}
+
+	.container div img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+
+	}
+
+	.image {
+		display: none;
+	}
+
+	.active {
+		display: block;
+	}
+</style>
+
+<body>
+
+	<div class="container">
+		<div class="active">
+			<img class="image active" src="https://picsum.photos/200/300">
+		</div>
+
+	</div>
+
+	<script>
+		const imageArray = ["https://picsum.photos/200/300", "https://picsum.photos/200/300", "https://picsum.photos/200/300", "https://picsum.photos/200/300", "https://picsum.photos/200/300", "https://picsum.photos/200/300"]
+
+		const imageArrayLen = imageArray.length 
+	</script>
+
+</body>
+
+</html>

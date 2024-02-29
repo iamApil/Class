@@ -1,0 +1,12 @@
+<collge>
+    <student rollno="1">
+        <name>Ram Sharma</name>
+        <address>Kathmandu, Nepal</address>
+        <age>18</age>
+    </student>
+    <student rollno="2">
+        <name>Gita Sharma</name>
+        <address>Pokhara, Nepal</address>
+        <age>19</age>
+    </student>
+</collge>

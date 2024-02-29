@@ -1,0 +1,26 @@
+<html>
+
+<head>
+	<title>HI</title>
+</head>
+
+<body>
+	<p id="demo"></p>
+
+
+
+	<script>
+		var parser, xmlDoc;
+		var text = "<bookstore><book>" +
+			"<title>Everyday Italian</title>" +
+			"<year>2005</year>" +
+			"</book></bookstore>";
+
+		parser = new DOMParser();
+		xmlDoc = parser.parserFromString(text, "text/xml");
+
+		document.getElementById("demo").innerHTML = xmlDoc.getElementTagName("title")[0].childNode[0].nodeValue;
+	</script>
+</body>
+
+</html>
